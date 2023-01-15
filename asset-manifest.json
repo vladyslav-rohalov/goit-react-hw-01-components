@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-01-components/static/css/main.c2722cdb.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.cabda18e.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.c2722cdb.css.map": "/goit-react-hw-01-components/static/css/main.c2722cdb.css.map",
+    "main.cabda18e.js.map": "/goit-react-hw-01-components/static/js/main.cabda18e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2722cdb.css",
+    "static/js/main.cabda18e.js"
+  ]
+}
