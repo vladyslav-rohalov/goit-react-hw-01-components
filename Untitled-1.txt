@@ -1,0 +1,4 @@
+ "repository": {
+    "url": "git+https://github.com/vladyslav-rohalov/goit-react-hw-01-components.git"
+  },
+  "homepage": "https://vladyslav-rohalov.github.io/goit-react-hw-01-components/",
