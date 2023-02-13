@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import css from './Statistic.module.css';
 import { getRandomHexColor } from '../../utils/index';
 
-export default function PaintingStatistics(props) {
-  const { title, stats } = props;
+export default function PaintingStatistics({ title, stats }) {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
+      {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.statList}>
         {stats.map(paintings => {

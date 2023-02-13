@@ -1,6 +1,6 @@
 import UserCard from './components/UserCard/UserCard';
 import Statistics from './components/Statistics/Statistics';
-import FriendList from './components/Friends/FriendList';
+import FriendsList from './components/Friends/FriendsList';
 import Transactions from './components/Transations/Transactions';
 import user from './data/userData.json';
 import stats from './data/statData.json';
@@ -23,7 +23,7 @@ export default function App() {
         <Statistics title="Upload stats" stats={stats} />
       </div>
       <div>
-        <FriendList friends={friends} />
+        <FriendsList friends={friends} />
       </div>
       <div>
         <Transactions transactions={transactions} />
